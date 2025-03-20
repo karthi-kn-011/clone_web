@@ -1,0 +1,305 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color:whitesmoke;
+    padding:10px;
+    color: aliceblue;
+    display:flex;
+    position:relative;
+    height:40px;
+}
+.lft-nav{
+    display:flex;
+    padding:3px;
+    align-items: center;
+    padding-left: 5px;
+    margin-right:300px;
+    font-family:"Segoe UI", "Segoe UI Web", Arial, sans-serif ;
+}
+.element1{
+    padding-left:70px;
+    margin-right:50px ;
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+    font-family: "Segoe UI", "Segoe UI Web", Arial, sans-serif;   
+    font-weight: 500; 
+    
+}
+.element{
+    display:flex;
+    position: relative;
+    gap:50px;
+    padding-left: 15px;
+    font-size:small;
+    color:black;
+    text-decoration: none;
+   
+}
+.ryt-nav{
+    display: flex;
+    gap:10px;
+    position: relative;
+    align-items: center;
+    font-family: "Segoe UI", "Segoe UI Web", Arial, sans-serif;    
+    text-decoration: none;
+    color: black;
+    font-size:medium;
+    font-weight:200;
+}
+.loginicon{
+    padding-left:20px;
+    margin-left: 15px;
+    font-size: 40px;
+    color: rgb(11, 11, 11);
+    position: relative;
+    top: 2px;
+}
+.herocontents{
+    background-image: url('./back.jpg');
+    background-size:1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    width:1500px;
+    height: 450px;
+    padding-left:5px;
+    margin-left:5px;
+  
+}
+.heropage{
+        margin-top:140px;
+        margin-left:50px;
+        padding-left: 100px;
+}
+.hero-con{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-weight: 700;
+    padding-right:200px;
+    font-weight: bold;
+
+}
+.hero-sub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 845px;
+}
+.btn{
+    position: relative;
+    background-color:#1949c3;
+    color:aliceblue;
+    width:200px;
+    height:45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px;
+    font-size:14px 40px;
+  
+}
+.btn:hover {
+    background-color: #005a9e;
+    cursor:pointer;
+}
+.Symbols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    font-size:40px;
+    top:40px;
+    gap:100px;
+    margin-left: 50px;
+}
+.words{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top:30px;
+    gap:30px;
+    margin-left:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(60, 60, 175);
+}
+.template{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    top:20px;
+    margin-left:130px;
+    margin-top: 50px; 
+    padding: 20px;
+}
+.card{
+    background-color:whitesmoke;
+    border-radius:0px;
+    overflow: hidden;
+    text-align:left;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit:scale-down;
+}
+
+.card h1 {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 20px 10px;
+}
+
+.card p {
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 20px 15px;
+    color: #696969;
+}
+
+.btn1 {
+    display: inline-block;
+    margin: 0 20px 20px;
+    padding: 10px 15px;
+    background-color: #0078D4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: #005a9e;
+    transform:translateY(-5px);
+    cursor:pointer;
+}
+.image{
+    background-image:url('./back1.jpg');
+    background-size:1200px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 850px;   
+}
+.wor{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:170px;
+}
+.template1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    top:20px;
+    margin-left:130px;
+    margin-top: 50px; 
+    padding: 20px;
+}
+.card{
+    background-color:whitesmoke;
+    border-radius:0px;
+    overflow: hidden;
+    text-align:left;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit:scale-down;
+}
+
+.card h1 {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 20px 10px;
+}
+.card p {
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 20px 15px;
+    color: #696969;
+}
+
+.btn2 {
+    display: inline-block;
+    margin: 0 20px 20px;
+    padding: 10px 15px;
+    background-color: #0078D4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: #005a9e;
+    transform:translateY(-5px);
+}
+.follow{
+    display:relative;
+    top:100px;
+    padding:60px;
+    justify-content: center;
+}
+.op{
+    display:inline;
+    padding-left:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 150px;
+}
+.icon{
+    top:10px;
+    display: inline;
+    font-size:25px;
+    padding-left:15px;
+    top:500px;
+}
+.back{
+    display:inline;
+    padding: 10px 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left:1300px;
+    margin-bottom:70px;
+}
+.back:hover{
+    background-color: #1261c9;
+    transform:translateY(-5px);
+    cursor:pointer;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 8px 10%;
+    font-family: Arial, sans-serif;
+  }
+.ash{
+    background-color:rgb(242, 242, 242);
+    padding:10px 20px;
+    height:250px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap:30px;
+ }
+.ash a:hover {
+    text-decoration: underline;
+  }
+.ash{
+    font-weight:bold;
+    font-size:16px;
+    list-style:none;
+}  
+.ash a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
