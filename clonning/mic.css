@@ -284,6 +284,10 @@ footer {
     padding:10px 20px;
     height:250px;
 }
+.ash ul{
+    list-style-type:none;
+}
+
 .footer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
